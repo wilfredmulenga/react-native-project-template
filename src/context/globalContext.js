@@ -5,9 +5,7 @@ export const GlobalContext = React.createContext()
 export class GlobalContextProvider extends React.Component {
   constructor () {
     super()
-    this.state = {
-      count: 0
-    }
+    this.state = {}
   }
 
   render () {
